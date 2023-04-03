@@ -33,7 +33,7 @@ def validate():
     res=res.upper()
     l = string.split(sep=",")
     l2 = res.split(sep=",")
-    if(len(l)==0 or res==""):
+    if(string=="" or res==""):
       messagebox.showerror("Error!","Please fill out both the fields")
     elif(res.endswith(",") or string.endswith(",")):
        messagebox.showerror("Error!","Dont end the string with a comma!")

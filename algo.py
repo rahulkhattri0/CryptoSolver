@@ -2,6 +2,8 @@
 complexity of this algo O(10^length of unique string)
 for example: In the case of Send,More and Money
 The Unique string will be SENDMORY,its length is 8,so the complexity is O(10^8)
+Also some things are improved from the java algo
+
 """
 class cryp:
     def __init__(self) -> None:
